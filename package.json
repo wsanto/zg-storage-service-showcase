@@ -1,0 +1,30 @@
+{
+  "name": "anima-0g-storage-service",
+  "version": "1.0.0",
+  "description": "0G Decentralized Storage Service for ANIMA Agent Kit",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["0g", "storage", "decentralized", "anima"],
+  "author": "ANIMA Team",
+  "license": "MIT",
+  "dependencies": {
+    "@0glabs/0g-ts-sdk": "^0.2.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
